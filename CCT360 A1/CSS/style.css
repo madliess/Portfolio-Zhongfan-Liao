@@ -1,0 +1,206 @@
+#nav{
+	font-size:30px;
+	font-weight: 400;
+	letter-spacing: 6px;
+	color:#000;
+	text-align: center;
+	background-color:#E9E9E9;
+	height:60px;
+}
+.logo-first{
+	color:#e64952;
+	
+}
+#nav a{
+	text-decoration:none;
+	vertical-align:middle;
+	border-top-color:#e64952;
+	display:inline-block;
+	box-sizing:inherit;
+	
+}
+#nav a:hover{
+	cursor:pointer;
+}
+#nav a:visited{
+	color:#000;
+}
+.NavIcon {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+   
+}
+.SearchIcon {
+    cursor: pointer;
+    cursor: hand;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    width: 5rem;
+    height: 5rem;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #D1D1D1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a, .dropdown-btn{
+  padding: 15px 8px 15px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #e64952;
+
+}
+.dropdown-btn:hover{
+	color:#e64952;
+	cursor:pointer
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #a1a1a1;
+  color: #FFF;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #a1a1a1;
+  padding-left: 8px;
+}
+
+#view-inner {
+	background-image:url("../Images/9KiaPqvm422a7vQLHITS-g_custom-Custom_Size___Hockney.png"); /*Image from https://artsy-media-uploads.s3.amazonaws.com/9KiaPqvm422a7vQLHITS-g%2Fcustom-Custom_Size___Hockney.jpg*/
+	width:100%;
+	height:400px;
+	background-position: 50% 5%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border-bottom:1px solid #fff;
+	
+	position:relative;
+}
+
+.inner-page-title{
+	color:#474747;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:24px;
+	text-transform: uppercase;
+	font-weight:bold;
+	position:absolute;
+	top:280px;
+	right:100px;
+	background-color:#ffffffbb;
+	padding:10px;
+	/*
+	margin-top:300px;
+	float:right;
+	margin-right:50px;
+	*/
+}
+main p{
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:1.15em;
+	line-height:1.25em;
+	margin-bottom:20px;
+	color:#333333;
+	font-weight:normal;
+}
+
+main{
+	width:80%;
+	margin:40px auto 40px auto;
+	
+}
+
+main h1{
+	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:#666;
+	font-size:30px;
+	margin-bottom:12px;
+
+}
+#profile{
+	margin-left:20px;
+	width:320px;
+	float:right;
+}
+figure{
+	margin:1rem 0;
+}
+figcaption{
+	font-style:italic;
+}
+
+
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%; 
+}
+footer{
+	width:100%;
+	height: 100px;
+	background-color:#E9E9E9;
+
+	/* horizonally and vertically centers content inside the container */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer span{
+	color:#E64952;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro","DejaVu Sans Condensed", Helvetica, Arial,"sans-serif";
+	font-size: 1.5em;
+}
+
+
+@media screen and (min-width:600px){
+	body{
+		width:100%;
+	}
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+

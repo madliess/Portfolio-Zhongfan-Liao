@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>David Hockney</title>
+	<meta name="Description" content="David Hockney Wiki website">
+	<meta name="Keywords"
+	content="David,Hockney,Painter,British">
+	<link rel="stylesheet" type="text/css" href="CSS/reset.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+	
+</head>
+
+<body>
+<header>
+		<div id="nav">
+				<a href="index.html">
+				<span class="logo-first">PERSONAL</span>LIFE
+				</a>
+			</div>
+			<div class="NavIcon" onclick="openNav()" data-reactid="69" >
+				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="15" viewBox="0 0 15 10" aria-labelledby="NavIconID" data-reactid="70"><title id="NavIconID" data-reactid="71">Main Navigation Icon</title><path d="M0 10v-2h15v2h-15zm0-4v-2h15v2h-15zm0-4v-2h15v2h-15z" data-reactid="72"></path></svg>
+			</div>
+		
+			<script>
+				function openNav() {
+				  document.getElementById("mySidenav").style.width = "250px";
+				}
+
+				function closeNav() {
+				  document.getElementById("mySidenav").style.width = "0";
+				}
+			</script>
+			<div class="SearchIcon" data-reactid="98">
+				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" viewBox="0 0 15 16" data-reactid="99"><path fill="#000" d="M10.643 9.85L15 14.207l-1.5 1.5-4.484-4.483a6.013 6.013 0 1 1 1.627-1.374zm-4.63.054a3.89 3.89 0 1 0 0-7.782 3.89 3.89 0 0 0 0 7.782z" data-reactid="100"></path></svg>
+			</div>	
+			<!--<nav class="side-nav side-nav--visible" data-reactid="3">-->
+				<div id="mySidenav" class="sidenav">
+				  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				  <a href="#">Biography</a>
+				 
+				  <div class="dropdown-btn">Work
+					
+				  </div>
+				  <div class="dropdown-container">
+					<a href="work.html">Portraits</a>
+					<a href="#">Photocollage</a>
+				
+				  </div>
+					<script>
+					var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+				  <a href="#">Personal Life</a>
+				  <a href="#">Collections</a>
+				  <a href="#">Foundation</a>
+				</div>
+		<div id="view-inner">
+			<h1 class="inner-page-title">Portrait of an Artist</h1>
+		</div>
+	</header>
+	
+	
+	<main>
+		<h1>Personal Life</h1>
+	<p><!--Document from https://en.wikipedia.org/wiki/David_Hockney-->
+		Hockney is gay and has explored the nature of gay love in his portraiture. Sometimes, as in We Two Boys Together Clinging (1961), named after a poem by Walt Whitman, the works refer to his love for men. In 1963, he painted two men together in the painting Domestic Scene, Los Angeles, one showering while the other washes his back. In summer 1966, while teaching at UCLA he met Peter Schlesinger, an art student who posed for paintings and drawings, and with whom he became romantically involved.</p>
+		<figure>
+			<!--Image from http://www.hockney.com/home -->
+			<img src="Images/61B04.jpg" id="boys" alt="We two Boys Together Clinging Together">
+			<figcaption>We two Boys Together Clinging Together</figcaption>
+		</figure>
+		<br>
+		<p>
+		On the morning of 18 March 2013, Hockney's 23-year-old assistant, Dominic Elliott, died as a result of drinking drain cleaner at Hockney's Bridlington studio; he had also earlier drunk alcohol and taken cocaine, ecstasy and temazepam. Elliott was a first- and second-team player for Bridlington Rugby Club. It was reported that Hockney's partner drove Elliott to Scarborough General Hospital where he later died. The inquest returned a verdict of death by misadventure and Hockney was never implicated. In November 2015 Hockney sold his house in Bridlington, a five-bedroomed former guest house, for £625,000, cutting all his remaining ties with the town.
+<br>
+		<br>
+		He holds a California Medical Marijuana Verification Card, which enables him to buy cannabis for medical purposes. He has used hearing aids since 1979, but realised he was going deaf long before that. He keeps fit by spending half an hour in the swimming pool each morning, and can stand for six hours at the easel.
+<br>
+		<br>
+		Hockney has synaesthetic associations between sound colour and shape.
+	</p>
+	
+	</main>
+	<footer>
+		<span>ALL IMAGES AND SITE CONTENT COPYRIGHT&copy;2020 DAVID HOCKNEY</span>
+	
+	</footer>
+	
+</body>
+</html>

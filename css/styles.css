@@ -1,0 +1,63 @@
+.jumbotron {
+  background-image: url("../img/201322.jpg");
+  background-size: cover;
+  background-blend-mode: soft-light;
+/*[Digital image]. (n.d.). Retrieved from https://www.walpaperlist.com/2020/01/background-your-name-wallpaper-1920x1080.html?__cf_chl_jschl_tk__=2d4f0c9612ce55660af7b676948f67e0c9573aeb-1592262476-0-AV4Gcs84bxsPo9ydTrFIsRoc5u8J1AFgSyIYK0DaZi0VsJ5O9zNl1LuNM5pQlDYMxZ-4oJ0tRs6ZjBiwoHwhCbeDQw4y83Im4iAYX82Mz7WV-2ryborVljkYq9wWtiZmkpurRnBaDwXQhJ1rnIWhD_jnBpGjo78D0cveMuuBLXsnqdtBtHOAzi9lfOY5uI1rmMn0yq5sdjWyR9NK7HYZtdn2ZuMG71UV6PgFK5fUHA6zN7Me_lK1pE3XVaSXGdajL4-BbNG6tI51z-HQUEE4VxTpr6kcB3bGfAH9KJVhnLL3Ba8IfJjDMyuLcIQ3iOpAM_-ot2IGhJe2J1J56WzyCVyRv6Ru41GVzCL9FYz0ikTJ*/
+}
+
+/*#jade .row{
+  text-align: right;
+}*/
+
+#jade .jumbotron {
+  background-image: url("../img/WeChat Image_20200615231844.jpg");
+  background-position: 50% 50%;
+  background-attachment: cover;
+}
+
+#jade .progress {
+  height: 100%;
+  background-color: #e9ecef99;
+}
+
+#jade .progress-bar[aria-valuenow="75"]{
+  background-color: rgb(255,100,100);
+  width: 75%;
+}
+#jade .progress-bar[aria-valuenow="80"]{
+  background-color:rgb(205,100,100);
+  width: 80%;
+}
+#jade .progress-bar[aria-valuenow="85"]{
+  background-color: rgb(155,100,100);
+  width: 85%;
+}
+
+
+#jade .container-fluid{
+  background-color:#fff;
+	
+	
+}
+
+#jade .card-deck svg{
+  width: 36px;
+}
+.navbar-light .navbar-brand {
+	color:#000;
+	font-size:25px;
+	
+	font-weight:bold;
+}
+
+.caption{
+	color:#000;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
